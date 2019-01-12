@@ -23,14 +23,6 @@ namespace ProjetoBanco
 
         }
 
-        public bool MaiorDeIdade() //Boolean = true or false.
-        {
-            var nascimentoMinimo = DateTime.Now.AddYears(-18);
-            var maiorDeIdade = DataNascimento <= nascimentoMinimo;
-
-            return maiorDeIdade;
-
-
-        }
+        
     }
 }

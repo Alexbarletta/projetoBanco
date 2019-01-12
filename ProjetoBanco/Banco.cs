@@ -23,8 +23,7 @@ namespace ProjetoBanco
 
         public Conta AbrirConta(Cliente cliente)
         {
-            if (!cliente.MaiorDeIdade())
-                throw new Exception("apenas pessoas maior de 18 anos pode abrir conta");
+            
             var numeroConta = Contas.Count + 1;
 
             var conta = new Conta(Enums.TipoConta.Corrente, 1, numeroConta, this);

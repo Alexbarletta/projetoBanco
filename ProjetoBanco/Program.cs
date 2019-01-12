@@ -49,7 +49,7 @@ namespace ProjetoBanco
             }
 
             Console.ResetColor();
-            Console.WriteLine(string.Empty);
+            //Console.WriteLine(string.Empty);
             Console.WriteLine(string.Empty);
             Console.WriteLine("pressione qualquer tecla para sair");
             Console.ReadKey();
